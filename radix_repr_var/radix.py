@@ -7,7 +7,8 @@ class Radix(ABC):
     Radix class.
     This abstract base class gives a general definition on
     how to implement a subclass that allows to represent a
-    numerical value into a specific (class defined) numerical base (radix).
+    numerical value into a specific (subclass defined) numerical base (radix).
+    The class also provides an abstract method to convert to a specific radix
     """
 
     def __init__(self, value):
