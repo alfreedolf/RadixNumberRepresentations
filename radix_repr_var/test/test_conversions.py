@@ -4,10 +4,18 @@ from radix_repr_var.octal import Octal
 
 
 class TestConversions(unittest.TestCase):
-
+    """
+    This is a test case for conversions
+    """
     def setUp(self):
+        """
+        defining some test values:
+        3 in binary
+        11 in binary
+        12 in octal
+        :return:
+        """
         self.bin_val_three = Binary(11)
-        self.bin_val_eleven = Binary(1011)
         self.bin_val_eleven = Binary(1011)
         self.octal_val_twelve = Octal(14)
 
